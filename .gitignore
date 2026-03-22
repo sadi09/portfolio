@@ -80,3 +80,10 @@ coverage/
 *.pid
 *.seed
 *.pid.lock
+
+# ============================================
+# Project Documentation Files (Internal Use Only)
+# ============================================
+plans/
+SECURITY.md
+SECURITY-CHECKSUM.txt

@@ -2,261 +2,76 @@
 
 Full Stack Laravel Developer portfolio showcasing 8+ years of experience building scalable web applications, enterprise ERPs, and AI-powered systems.
 
-## 🌐 Live Demo
+## 🌐 Live Portfolio
 
-[View Portfolio](https://yourusername.github.io/Portfolio/) (Replace with your actual GitHub Pages URL)
+**[https://sadi09.github.io/portfolio/](https://sadi09.github.io/portfolio/)**
 
-## 📁 Project Structure
+## 👤 About Me
 
-```
-Portfolio/
-├── index.html          # Main HTML structure
-├── css/
-│   └── styles.css      # All styles with proper formatting
-├── js/
-│   └── script.js       # All JavaScript functionality
-├── assets/             # Future assets (images, fonts, etc.)
-├── plans/              # Architecture and planning documents
-├── README.md           # This file
-└── .gitignore          # Git ignore rules
-```
+I'm a Full Stack Laravel Developer with 8+ years of experience building scalable web applications, enterprise ERPs, and AI-powered systems. Based in Dhaka, Bangladesh — delivering for teams worldwide.
 
-## ✨ Features
+## 📋 Skills
 
-- **Modern Design**: Clean, professional aesthetic with dark theme
-- **Custom Animations**:
-  - Custom cursor with smooth following effect
-  - Canvas particle background with connecting lines
-  - Typewriter effect for job titles
-  - Counter animations for statistics
-  - Scroll reveal animations
-  - 3D tilt effects on cards
-- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile
-- **Functional Contact Form**: Integrated with Formspree for email submissions
-- **Smooth Navigation**: Smooth scrolling between sections
-- **Performance Optimized**: Lightweight and fast loading
+- **Backend**: Laravel, PHP (OOP), Custom PHP, MVC Architecture, RESTful API Design, .NET Core
+- **Database**: MySQL, Database Optimization, Query Optimization
+- **AI Integration**: OpenAI API, Google Gemini API, AI KPI Dashboards
+- **Frontend**: JavaScript, Angular, HTML & CSS, Blade Templates
+- **Infrastructure**: Linux Environment, Background Jobs & Queues
+- **Project Management**: Agile / Scrum, Sprint Planning, Jira, ClickUp
+- **Domain Expertise**: ERP Systems, HRMS, POS Systems, Supply Chain, Micro-Finance
 
-## 🚀 Quick Start
+## 💼 Experience
 
-### Prerequisites
+- **Senior Software Engineer / Technical Project Lead** (Feb 2024 — Present)
+  - Dongyi Sourcing Limited (DSL), Dhaka
+  - Architected full Buying House ERP, integrated OpenAI & Google Gemini APIs
+  
+- **Software Engineer (Remote)** (Nov 2021 — Feb 2024)
+  - IT Grow Division Ltd.
+  - Built and maintained enterprise PHP/Laravel applications
+  
+- **Software Engineer / Team Lead** (May 2017 — Oct 2021)
+  - SMG Softech Ltd.
+  - Engineered PHP/MySQL-based ERP, POS, HR, and accounting systems
 
-- A GitHub account
-- A Formspree account (free tier available)
+## 🚀 Featured Projects
 
-### Local Development
+- **AI-Powered KPI & Decision Support System** — Integrated OpenAI and Google Gemini into Laravel ERP
+- **Manufacturing Factory ERP System** — End-to-end ERP digitization for production
+- **Integrated Buying House ERP** — Full ERP covering HRMS, merchandising, commercial operations
+- **Enterprise Membership & Workflow Platform** — Multi-step workflows with automated renewals
+- **TaskO — Task Management System** — Internal productivity tool with RESTful API backend
 
-1. **Clone or download this repository**
+## 🏆 Achievements
 
-2. **Open `index.html` in your browser**
+- **Star Performer Award** — Engineering Team, Dongyi Sourcing Limited, Oct 2024
+- **Consistent On-Time Delivery** — Met delivery targets in 23 of 27 consecutive months
+- **Top 35 Apps — EATL Contest, National mobile app competition, 2013
+- **Top App — IUBAT Exhibition**, University Software Exhibition, 2014
+- **~100 Clients Served** — Software solutions adopted across industries and markets
+- **M.Sc. Computer Science** — Jahangirnagar University, 2019
+- **B.Sc. CSE** — IUBAT, 2017
 
-   Simply double-click `index.html` or drag it into your browser to view the portfolio locally.
+## 📞 Contact
 
-3. **Optional: Start a local server**
+- **Email**: [abd.aalamin@gmail.com](mailto:abd.aalamin@gmail.com)
+- **LinkedIn**: [linkedin.com/in/abdullah-aal-amin](https://linkedin.com/in/abdullah-aal-amin)
+- **Phone**: +880 1521 447 949
+- **Location**: Uttara, Dhaka, Bangladesh
 
-   For a better development experience, you can use a simple HTTP server:
+Or use the [contact form](https://sadi09.github.io/portfolio/#contact) on the portfolio.
 
-   ```bash
-   # Using Python 3
-   python -m http.server 8000
+## 🔗 Links
 
-   # Using Node.js (with http-server installed)
-   npx http-server
+- 🌐 **Portfolio**: [https://sadi09.github.io/portfolio/](https://sadi09.github.io/portfolio/)
+- 📧 **GitHub**: [github.com/sadi09/portfolio](https://github.com/sadi09/portfolio)
+- 💼 **LinkedIn**: [linkedin.com/in/abdullah-aal-amin](https://linkedin.com/in/abdullah-aal-amin)
 
-   # Using PHP
-   php -S localhost:8000
-   ```
 
-   Then navigate to `http://localhost:8000` in your browser.
 
-## 📧 Setting Up the Contact Form
+## 🛠️ Portfolio Creation
 
-The contact form uses **Formspree** to send emails directly to your Gmail without needing a backend server.
-
-### Step 1: Create a Formspree Account
-
-1. Go to [formspree.io](https://formspree.io)
-2. Sign up for a free account
-3. Create a new form
-
-### Step 2: Get Your Form ID
-
-After creating a form, you'll get a form endpoint URL like:
-```
-https://formspree.io/f/your-form-id
-```
-
-Copy the `your-form-id` part.
-
-### Step 3: Update the Contact Form
-
-Open `index.html` and find the contact form section (around line 358). Replace `YOUR_FORM_ID` with your actual Formspree form ID:
-
-```html
-<form 
-  id="contact-form"
-  action="https://formspree.io/f/YOUR_FORM_ID" 
-  method="POST"
->
-```
-
-### Step 4: Configure Formspree Settings
-
-In your Formspree dashboard:
-
-1. Go to your form settings
-2. Set the email address where you want to receive submissions (e.g., `abd.aalamin@gmail.com`)
-3. Configure any additional settings as needed (redirects, spam filters, etc.)
-
-### Form Features
-
-- ✅ Form validation (required fields)
-- ✅ Loading state during submission
-- ✅ Success message on successful submission
-- ✅ Error handling with retry option
-- ✅ Automatic form reset after success
-
-## 🌍 Deploying to GitHub Pages
-
-### Step 1: Create a GitHub Repository
-
-1. Go to [github.com](https://github.com) and sign in
-2. Click the "+" icon and select "New repository"
-3. Name your repository (e.g., `Portfolio`)
-4. Make it public (recommended for portfolios)
-5. Click "Create repository"
-
-### Step 2: Upload Your Files
-
-**Option A: Using GitHub Web Interface**
-
-1. On your repository page, click "uploading an existing file"
-2. Drag and drop all files and folders:
-   - `index.html`
-   - `css/` folder
-   - `js/` folder
-   - `assets/` folder (if you have any)
-3. Add a commit message like "Initial commit"
-4. Click "Commit changes"
-
-**Option B: Using Git Command Line**
-
-```bash
-# Initialize git repository
-git init
-
-# Add all files
-git add .
-
-# Commit changes
-git commit -m "Initial commit"
-
-# Add remote repository (replace with your repo URL)
-git remote add origin https://github.com/yourusername/Portfolio.git
-
-# Push to GitHub
-git branch -M main
-git push -u origin main
-```
-
-### Step 3: Enable GitHub Pages
-
-1. Go to your repository on GitHub
-2. Click "Settings" tab
-3. In the left sidebar, click "Pages"
-4. Under "Source", select the `main` branch
-5. Click "Save"
-
-### Step 4: Access Your Portfolio
-
-After a few minutes, your portfolio will be live at:
-```
-https://yourusername.github.io/Portfolio/
-```
-
-## 🎨 Customization
-
-### Updating Personal Information
-
-Edit the following in `index.html`:
-
-- **Name**: Update the `<title>` tag and any text references
-- **Email**: Update the `mailto:` link and contact form email
-- **Phone**: Update the phone number
-- **Location**: Update the address
-- **Social Links**: Update LinkedIn and other social media URLs
-
-### Modifying Colors
-
-Edit CSS variables in `css/styles.css` (line 12-18):
-
-```css
-:root {
-  --bg: #080a0b;        /* Background color */
-  --sur: #101315;       /* Surface color */
-  --ac: #c8f56a;        /* Accent color */
-  --tx: #eceae3;        /* Text color */
-  /* ... and more */
-}
-```
-
-### Adding/Removing Projects
-
-Find the projects section in `index.html` (around line 305) and add or remove project cards following the existing structure.
-
-### Updating Experience
-
-Find the experience section in `index.html` (around line 255) and update your work history.
-
-### Modifying Skills
-
-Find the skills section in `index.html` (around line 323) and update your technical skills.
-
-## 🔧 Technologies Used
-
-- **HTML5**: Semantic markup
-- **CSS3**: Modern styling with CSS variables
-- **JavaScript (ES6+)**: Interactive features and animations
-- **Formspree**: Contact form handling
-- **Google Fonts**: DM Serif Display, DM Mono, Plus Jakarta Sans
-
-## 📱 Responsive Design
-
-The portfolio is fully responsive and optimized for:
-
-- 🖥️ Desktop (1200px+)
-- 💻 Laptop (992px - 1199px)
-- 📱 Tablet (768px - 991px)
-- 📱 Mobile (< 768px)
-
-## 🎯 Browser Support
-
-- ✅ Chrome (latest)
-- ✅ Firefox (latest)
-- ✅ Safari (latest)
-- ✅ Edge (latest)
-
-## 📝 License
-
-This portfolio is open source and available for personal and commercial use.
-
-## 👤 Author
-
-**Abdullah Aal Amin**
-- Email: abd.aalamin@gmail.com
-- LinkedIn: [linkedin.com/in/abdullah-aal-amin](https://linkedin.com/in/abdullah-aal-amin)
-- Location: Dhaka, Bangladesh
-
-## 🤝 Contributing
-
-This is a personal portfolio, but feel free to fork it and use it as a template for your own portfolio!
-
-## 📞 Support
-
-If you have any questions or need help setting up your portfolio, feel free to:
-
-1. Open an issue on GitHub
-2. Send an email to abd.aalamin@gmail.com
-3. Reach out on LinkedIn
+This portfolio was created with assistance from **[Antigravity](https://antigravity.com/)** and **[Kilocode](https://kilocode.com/)**.
 
 ---
 
