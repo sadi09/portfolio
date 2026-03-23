@@ -209,6 +209,34 @@ nav .in {
   width: 100%;
 }
 
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.social-share {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  border-left: 1px solid var(--b);
+  padding-left: 20px;
+}
+
+.share-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--mu);
+  transition: all 0.2s;
+  cursor: none;
+}
+
+.share-icon:hover {
+  color: var(--ac);
+  transform: translateY(-2px);
+}
+
 /* ============================================
    HERO SECTION
    ============================================ */
@@ -1129,6 +1157,11 @@ footer {
 
   .nlinks {
     display: none;
+  }
+
+  .social-share {
+    border-left: none;
+    padding-left: 0;
   }
 
   .container {
